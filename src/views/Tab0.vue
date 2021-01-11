@@ -2,29 +2,27 @@
   <ion-page>
     <ion-header>
       <ion-toolbar>
-        <ion-title>Preference</ion-title>
+        <ion-title>Calculate</ion-title>
       </ion-toolbar>
     </ion-header>
     <ion-content :fullscreen="true">
       <ion-header collapse="condense">
         <ion-toolbar>
-          <ion-title size="large">Preference</ion-title>
+          <ion-title size="large">Calculate</ion-title>
         </ion-toolbar>
       </ion-header>
 
-      <ExploreContainer name="Preference in progress" />
+      <ExploreContainer name="Calculate page in progress" />
     </ion-content>
   </ion-page>
 </template>
 
 <script lang="ts">
-import {IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonButton} from '@ionic/vue';
+import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
 import ExploreContainer from '@/components/ExploreContainer.vue';
 
 export default  {
-  name: 'Tab3',
-  components: { ExploreContainer, IonHeader, IonToolbar, IonTitle, IonContent, IonPage },
-
+  name: 'Tab1',
+  components: { ExploreContainer, IonHeader, IonToolbar, IonTitle, IonContent, IonPage }
 }
-
 </script>
