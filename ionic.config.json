@@ -1,0 +1,7 @@
+{
+  "name": "vuebutjet",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
